@@ -29,3 +29,29 @@ function multiply() {
 Sum.textContent = "Sum: " + (num1 * num2);
 }
 
+/*
+// E.g. if the user clicks on the "Plus" button, you should render
+// "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
+let sumEl = document.getElementById("sum-el")
+
+function add() {
+    let result = num1 + num2
+    sumEl.textContent = "Sum: " + result
+}
+
+function subtract() {
+    let result = num1 - num2
+    sumEl.textContent = "Sum: " + result
+}
+
+function divide() {
+    let result = num1 / num2
+    sumEl.textContent = "Sum: " + result
+}
+
+function subtract() {
+    let result = num1 - num2
+    sumEl.textContent = "Sum: " + result
+}
+
+*/
